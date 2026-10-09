@@ -1,10 +1,10 @@
 baseURL = "https://MsagreraFornells.github.io/Web-estatica-MarcSagrera/"
 languageCode = "ca"
-title = "NovaSys IT Docs"
+title = "Marc Sagrera Pagina Hugo"
 theme = "PaperMod"
 
 [params]
-  description = "Documentació tècnica del departament d'informàtica de NovaSys"
+  description = "Aquesta"
   author = "Marc Sagrera"
   defaultTheme = "auto"
   ShowReadingTime = true
