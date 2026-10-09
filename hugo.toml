@@ -1,0 +1,21 @@
+baseURL = "https://MsagreraFornells.github.io/Web-estatica-MarcSagrera/"
+languageCode = "es"
+title = "Web estática de Marc Sagrera"
+theme = "PaperMod"
+
+[params]
+  description = "Mi web estática hecha con Hugo y publicada en GitHub Pages"
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Sobre mí"
+    url = "sobre-mi/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "posts/"
+    weight = 3
