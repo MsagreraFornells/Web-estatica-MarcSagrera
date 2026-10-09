@@ -1,6 +1,6 @@
 baseURL = "https://MsagreraFornells.github.io/Web-estatica-MarcSagrera/"
 languageCode = "ca"
-title = "Marc Sagrera Pagina Hugo"
+title = "Marc Sagrera Fornells"
 theme = "PaperMod"
 
 [params]
@@ -15,11 +15,14 @@ theme = "PaperMod"
     favicon = "favicon.svg"
 
   [params.homeInfoParams]
-    Title = "NovaSys IT Docs"
+    Title = "InfraTech Web Estatica"
     Content = """
-**NovaSys** és una empresa fictícia de serveis informàtics. Aquesta web és la base de coneixement del departament de sistemes.
+**InfraTech** un projecte dedicat a l'aprenentatge dels sistemes informàtics, les xarxes i els serveis de xarxa.
 
-**Objectiu:** que un administrador de sistemes pugui consultar ràpidament guies de Linux, xarxes i serveis.
+**L'objectiu** d'aquesta web és oferir informació clara i pràctica sobre Linux, els protocols de comunicació i la configuració de serveis com SSH i HTTP.
+
+A través de diferents seccions, podràs consultar conceptes, configuracions i exemples útils per aprendre administració de sistemes.
+
 
 Seccions principals:
 
