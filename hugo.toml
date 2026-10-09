@@ -1,21 +1,51 @@
 baseURL = "https://MsagreraFornells.github.io/Web-estatica-MarcSagrera/"
-languageCode = "es"
-title = "Web estática de Marc Sagrera"
+languageCode = "ca"
+title = "NovaSys IT Docs"
 theme = "PaperMod"
 
 [params]
-  description = "Mi web estática hecha con Hugo y publicada en GitHub Pages"
+  description = "Documentació tècnica del departament d'informàtica de NovaSys"
+  author = "Marc Sagrera"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowToc = true
+  ShowBreadCrumbs = true
 
-[menu]
-  [[menu.main]]
-    name = "Inicio"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Sobre mí"
-    url = "sobre-mi/"
-    weight = 2
-  [[menu.main]]
-    name = "Blog"
-    url = "posts/"
-    weight = 3
+  [params.assets]
+    favicon = "favicon.svg"
+
+  [params.homeInfoParams]
+    Title = "NovaSys IT Docs"
+    Content = """
+**NovaSys** és una empresa fictícia de serveis informàtics. Aquesta web és la base de coneixement del departament de sistemes.
+
+**Objectiu:** que un administrador de sistemes pugui consultar ràpidament guies de Linux, xarxes i serveis.
+
+Seccions principals:
+
+- [Linux](linux/): usuaris, grups i permisos
+- [Xarxes](xarxes/): TCP/IP i DNS
+- [Serveis](serveis/): SSH i HTTP
+- [Blog](blog/): articles tècnics
+"""
+
+[[menus.main]]
+  name = "Inici"
+  pageRef = "/"
+  weight = 1
+[[menus.main]]
+  name = "Linux"
+  pageRef = "/linux"
+  weight = 2
+[[menus.main]]
+  name = "Xarxes"
+  pageRef = "/xarxes"
+  weight = 3
+[[menus.main]]
+  name = "Serveis"
+  pageRef = "/serveis"
+  weight = 4
+[[menus.main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 5
