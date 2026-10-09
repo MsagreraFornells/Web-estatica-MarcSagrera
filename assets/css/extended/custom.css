@@ -1,0 +1,5 @@
+:root { --primary: #1b6ca8; }
+.post-title, .entry-header h2 { color: var(--primary); }
+.post-content table { width: 100%; }
+.post-content img { border-radius: 10px; }
+code { font-size: 0.9em; }
